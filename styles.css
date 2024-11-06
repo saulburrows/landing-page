@@ -63,6 +63,7 @@ a {
     padding: 20px 0px;
     max-width: 500px;
     padding-right: 20px;
+    font-size: 20px;
 }
 
 .banner-button {
@@ -71,10 +72,36 @@ a {
 
 .banner-button button {
     background-color: #3882F6;
-    padding: 5px 20px;
+    padding: 10px 40px;
     border-radius: 10px;
     border: none;
     color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.banner-button button:hover {
+    background-color: #255fbc;
+}
+
+.banner-button button:active {
+    background-color: #255fbc;
+    transform: translateY(4px);
+  }
+
+.banner-right {
+    display: flex;
+    flex: 1;
+    max-width: 800px;
+}
+
+.banner-image img {
+    display: flex;
+    flex: 1;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
 }
 
 .info-title {
@@ -147,6 +174,7 @@ a {
     padding: 40px;
     border-radius: 10px;
     color: white;
+    flex-wrap: wrap;
 
 }
 
@@ -165,7 +193,13 @@ a {
     color: white;
     padding: 5px 20px;
     font-size: 16px;
+    cursor: pointer;
 }
+
+.signup-button button:active {
+    background-color: #3882F6;
+    transform: translateY(4px);
+  }
 
 .footer {
     display: flex;
