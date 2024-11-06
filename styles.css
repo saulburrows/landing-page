@@ -1,0 +1,126 @@
+body {
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Header {
+    background-color: #1F2937;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    color: white;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.banner-section {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.info-title {
+    display: flex;
+    font-size: 24px;
+    padding: 20px;
+    
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.card-text {
+    display: flex;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding: 100px;
+}
+
+
+.signup-section {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.signup-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    flex: 1;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.signup-button {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+}
